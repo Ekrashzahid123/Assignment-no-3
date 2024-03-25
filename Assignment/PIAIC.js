@@ -18,3 +18,8 @@ console.log(full);
 //Create a variable for a user's age with a type annotation and assign a number to it.
 let user_age = 21;
 console.log("The Age of user is as:", user_age);
+//Use a template string to display a product name and its price.
+let product_name = "DELL i5 8 generation";
+let Price_of_product = 1200000;
+let merg = `The Name of product is ${product_name} and price is ${Price_of_product}`;
+console.log(merg);
