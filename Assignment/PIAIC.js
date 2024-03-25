@@ -13,5 +13,8 @@ console.log("My Current mood is Happy", current_mood);
 //Combine a user's first and last name using template literals and log the full name.
 let firstName = "Ekrash";
 let lastName = "Zahid";
-let full = `My Full Name is as:${firstName}  ${lastName}`;
+let full = `My Full Name is as:${firstName}${lastName}`;
 console.log(full);
+//Create a variable for a user's age with a type annotation and assign a number to it.
+let user_age = 21;
+console.log("The Age of user is as:", user_age);
