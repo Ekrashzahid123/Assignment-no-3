@@ -15,3 +15,6 @@ let firstName: string = "Ekrash";
 let lastName: string = "Zahid";
 let full: string = `My Full Name is as:${firstName}${lastName}`;
 console.log(full);
+//Create a variable for a user's age with a type annotation and assign a number to it.
+let user_age:number=21;
+console.log("The Age of user is as:",user_age);
